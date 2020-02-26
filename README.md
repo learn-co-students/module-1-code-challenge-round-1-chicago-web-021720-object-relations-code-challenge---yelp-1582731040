@@ -46,44 +46,44 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Customer
 
-- `Customer#initialize`
+- `Customer#initialize` *******
   - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)"
-- `Customer#given_name`
+- `Customer#given_name` ******
   - returns the customer's given name
-  - should be able to change after the customer is created
-- `Customer#family_name`
+  - should be able to change after the customer is created #ATTR_ACCESSOR
+- `Customer#family_name` *******
   - returns the customer's family name
   - should be able to change after the customer is created
-- `Customer#full_name`
+- `Customer#full_name` *******
   - returns the full name of the customer, with the given name and the family name concatenated, Western style.
-- `Customer.all`
+- `Customer.all` ***********
   - returns **all** of the customer instances
 
 #### Restaurant
 
-- `Restaurant#initialize`
+- `Restaurant#initialize` ********
   - Restaurants should be initialized with a name, as a string
-- `Restaurant#name`
+- `Restaurant#name` ***********
   - returns the restaurant's name
-  - should not be able to change after the restaurant is created
+  - should not be able to change after the restaurant is created #READER
 
 #### Review
 
-- `Review#initialize`
+- `Review#initialize` *******
   - Reviews should be initialized with a customer, restaurant, and a rating (a number)
-- `Review#rating`
+- `Review#rating` ??????????
   - returns the rating for a restaurant.
-- `Review.all`
+- `Review.all` ***********
   - returns all of the reviews
 
 ### Object Relationship Methods
 
 #### Review
 
-- `Review#customer`
+- `Review#customer` **********
   - returns the customer object for that review
   - Once a review is created, should not be able to change the customer
-- `Review#restaurant`
+- `Review#restaurant` *********
   - returns the restaurant object for that given review
   - Once a review is created, should not be able to change the restaurant
 
